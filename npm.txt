@@ -1,0 +1,15 @@
+npm init
+npm install
+
+"start": "webpack-dev-server --mode development"
+
+npm i --save-dev webpack-dev-server --mode development
+npm i --save-dev webpack
+npm i --save-dev webpack-cli
+npm i --save-dev css-loader node-sass sass-loader style-loader file-loader url-loader webpack-livereload-plugin
+
+npm install --save reset-css
+
+https://blog.zverit.com/frontend/2017/09/15/autoprefixer-webpack-config/
+npm install postcss-loader
+npm install autoprefixer
